@@ -1,0 +1,41 @@
+@font-face{
+    font-family: neutral_face; src: url('./Resosurces/NeutralFace.otf');
+} 
+
+body{
+    background-color: red;
+    font-family: neutral_face;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 200px;
+    text-align: center;
+    position: fixed;
+    z-index: 4;
+}
+
+#affliction{
+    position: fixed;
+    z-index: 3;
+}
+
+#paradolia{
+    position: absolute;
+    width: 600px;
+    top: 600px;
+    left: 900px;
+    z-index: -1;
+}
+
+#back{
+    position: absolute;
+    top: 1555px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: -2;
+    opacity: 0.2;
+}
